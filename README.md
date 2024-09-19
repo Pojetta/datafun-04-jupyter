@@ -19,3 +19,33 @@
 8. Use git add., git commit, and git push to sync local changes to remote repo in GitHUb.
 
 ```
+
+## How to set up Jupyter using VS Code
+```
+1. Install the Jupyter Extension: If not already installed, add the Jupyter extension to VS Code. 
+
+2. Open your root project repository folder in VS Code.
+
+3. From the command palette (Ctrl+Shift+P), select "Python: Select Interpreter" and choose the interpreter from your virtual environment.
+
+```
+
+## How to Create and Start a New Jupyter Notebook
+
+```
+
+1. In the VS Code Explorer, create a new file e.g., yourname_eda.ipynb. Ensure it has a .ipynb extension.
+
+2. Add a Markdown cell at the top of your notebook with the introduction (include the title, author, date and the purpose of the project).
+
+3. Import Dependencies in a Python cell (At the Top, After the Introduction)
+
+    import matplotlib.pyplot as plt
+    import pandas as pd
+    import seaborn as sns
+
+4. Execute the cell to ensure everything works. 
+
+```
+
+ 
